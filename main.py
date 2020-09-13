@@ -93,4 +93,34 @@ async def navi3(ctx):
     )
 
 
+@bot.command()
+async def hello_nitesh(ctx):
+    await ctx.send("saar is currently busy")
+
+
+@bot.command()
+async def hello_nandha(ctx):
+    await ctx.send("saar is currently stealing others food")
+
+
+@bot.command()
+async def hello_pranav(ctx):
+    await ctx.send("saar is currently writing thesis")
+
+
+@bot.command()
+async def hello_nishaant(ctx):
+    await ctx.send("fizz aduchitu paduthutaan")
+
+
+@bot.command()
+async def hello_braga(ctx):
+    await ctx.send("parkour panni vizhundhutaan")
+
+
+@bot.command()
+async def hello_ajitessh(ctx):
+    await ctx.send("saar currently is mugging up:nerd:")
+
+
 bot.run(os.getenv("TOKEN"))
